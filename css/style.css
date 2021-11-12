@@ -395,9 +395,6 @@ line-height: 32px;
     transition: .1s;
 }
 
-.nav-menu .menu-item:nth-last-child(1).active a, .nav-menu .menu-item:nth-last-child(1) a:hover {
-
-}
 
 .nav-menu .menu-item:nth-last-child(1) span {
     padding: 0 8px;
