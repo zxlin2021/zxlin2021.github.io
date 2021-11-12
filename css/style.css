@@ -414,9 +414,6 @@ line-height: 32px;
     color: rgb(255, 255, 255);
 }
 
-.nav-menu .menu-item.active a, .nav-menu .menu-item a:hover {
-    border-bottom: 1px solid #ffff;
-}
 
 @media screen and (max-width: 900px) {
     .nav {
