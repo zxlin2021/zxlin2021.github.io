@@ -253,12 +253,6 @@ header {
     object-fit: contain;
 }
 
-.nav .language {
-    border: 1px solid #E4A493;
-    ;
-    color:#E4A493; 
-    border-radius: 2px;
-}
 
 .nav-menu {
     width: auto;
@@ -292,9 +286,17 @@ header {
 .nav-menu .menu-item:nth-last-child(1) span {
     padding: 0 8px;
     line-height: 60px;
-    color: rgb(255, 255, 255);
+    color: #E4A493;
 }
 
+.nav-menu .menu-item .language {
+padding: 0 12px;
+line-height: 32px;
+    border: 1px solid #E4A493;
+    display: inline-block;
+    color:#E4A493; 
+    border-radius: 2px;
+}
 .nav-menu .menu-item .link {
     display: inline-block;
     width: 100%;
@@ -462,8 +464,11 @@ header {
         margin-right: 5px;
     }
     .nav-menu .menu-item:nth-last-child(1) {
-        background: #edd8d2;
-        order: -1;
+       
+    }
+    .nav-menu .menu-item:nth-last-child(1) a{
+        display: unset;
+      
     }
     .nav-hamburger {
         display: block;
@@ -1003,7 +1008,7 @@ header {
 
 .tabs-nav li.active {
     font-weight: bold;
-    border-bottom: 1px solid #2d2d2d;
+    border: 1px solid #2d2d2d;
 }
 
 .tabs-nav li.active a {
@@ -1025,8 +1030,9 @@ header {
     }
     .tabs-nav li {
         margin-bottom: 12px;
-        margin-right: 12px;
+        margin-right: 6px;
         ;
+        width: 100%;
         border: 1px solid #cdcdcd;
     }
 }
