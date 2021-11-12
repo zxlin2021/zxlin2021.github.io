@@ -1272,10 +1272,10 @@ footer {
 
 .footer-icon .icon {
     height: 35px;
-    margin:0 12px;
 }
 
 .footer-icon  .icon img {
+        margin:0 12px;
 }
 
 .footer-icon .icon:hover img {
