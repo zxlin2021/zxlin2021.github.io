@@ -1270,13 +1270,12 @@ footer {
     margin: 0 auto;
 }
 
-.footer-icon .menu-item .icon {
+.footer-icon .icon {
     height: 35px;
     margin:0 12px;
 }
 
-.footer-icon .menu-item .icon img {
-    margin: 0 6px;
+.footer-icon  .icon img {
 }
 
 .footer-icon .icon:hover img {
