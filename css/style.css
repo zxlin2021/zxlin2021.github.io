@@ -1008,7 +1008,7 @@ line-height: 32px;
 
 .tabs-nav li.active {
     font-weight: bold;
-    border: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
 }
 
 .tabs-nav li.active a {
@@ -1028,6 +1028,7 @@ line-height: 32px;
     .tabs-nav ul {
         border-bottom: none;
     }
+    
     .tabs-nav li {
         margin-bottom: 12px;
         margin-right: 6px;
@@ -1035,6 +1036,9 @@ line-height: 32px;
         width: 100%;
         border: 1px solid #cdcdcd;
     }
+    .tabs-nav li.active {
+    border: 1px solid #2d2d2d;
+}
 }
 
 /* Tab content */
