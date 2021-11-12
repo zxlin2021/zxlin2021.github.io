@@ -461,6 +461,7 @@ line-height: 32px;
     }
     .nav-menu .menu-item:nth-last-child(1) a{
         display: unset;
+        border:none;
       
     }
     .nav-hamburger {
