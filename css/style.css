@@ -256,6 +256,7 @@ header {
 .nav .language {
     border: 1px solid #E4A493;
     ;
+    color:#E4A493; 
     border-radius: 2px;
 }
 
@@ -1260,6 +1261,8 @@ footer {
 .footer-icon {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .footer-icon .menu-item .icon {
