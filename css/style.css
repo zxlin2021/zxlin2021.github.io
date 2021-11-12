@@ -1259,6 +1259,7 @@ footer {
 }
 
 .footer-icon {
+    padding: 12px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
