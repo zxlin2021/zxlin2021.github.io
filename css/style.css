@@ -1272,6 +1272,7 @@ footer {
 
 .footer-icon .menu-item .icon {
     height: 35px;
+    margin:0 12px;
 }
 
 .footer-icon .menu-item .icon img {
