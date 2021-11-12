@@ -396,8 +396,7 @@ line-height: 32px;
 }
 
 .nav-menu .menu-item:nth-last-child(1).active a, .nav-menu .menu-item:nth-last-child(1) a:hover {
-    border-bottom: none;
-    color: rgb(110, 255, 250);
+
 }
 
 .nav-menu .menu-item:nth-last-child(1) span {
