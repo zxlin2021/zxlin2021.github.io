@@ -1074,7 +1074,16 @@ background:#fbd6cc;
     margin: 24px 0px;
     cursor: pointer;
 }
-
+@media screen and (max-width: 786px) {
+    .card {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
 .card .work-pic {
     width: 100%;
     height: 300px;
