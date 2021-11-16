@@ -742,11 +742,15 @@ background:#fbd6cc;
     margin: 10px 16px;
     text-align: center;
 }
-
 @media screen and (max-width: 786px) {
     .skill {
-        width: 100%;
+        width: 60%;
         height: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .skill {
+        width: 100%;
     }
 }
 
