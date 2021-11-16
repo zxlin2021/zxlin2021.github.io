@@ -216,7 +216,7 @@ a:hover {
 /* ------------------------------------------ nav --------------------------------------------- */
 
 header {
-   background: #fffdfd;
+   background: #f3efed;
     width: 100%;
     margin: auto;
     display: block;
@@ -911,7 +911,7 @@ background:#fbd6cc;
 --------------------------------------------- */
 
 #work {
-    background: #F1E8E4;
+    
 }
 
 #work .kv {
@@ -1272,7 +1272,7 @@ background:#fbd6cc;
 /* -----------------------------------------footer--------------------------------------------- */
 
 footer {
-    background: #E3DCD9;
+    background: #f3efed;
 }
 
 .footer-icon {
