@@ -785,7 +785,7 @@ background:#fbd6cc;
 @media screen and (max-width: 786px) {
     .skill p {
         margin: 0 auto;
-        width: 60%;
+        width: 100%;
     }
 }
 
