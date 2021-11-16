@@ -1078,12 +1078,12 @@ background:#fbd6cc;
     margin: 24px 0px;
     cursor: pointer;
 }
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 1200px) {
     .card {
         width: 45%;
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 786px) {
     .card {
         width: 100%;
     }
