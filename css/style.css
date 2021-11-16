@@ -296,6 +296,7 @@ line-height: 32px;
     display: inline-block;
     color:#E4A493; 
     border-radius: 2px;
+    transition:.2s;
 }
 .nav-menu .menu-item .language:hover{
 background:#fffefe;
