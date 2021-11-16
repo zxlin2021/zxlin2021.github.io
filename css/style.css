@@ -745,6 +745,7 @@ background:#fbd6cc;
     .skill {
         width: 60%;
         height: auto;
+        marin:10px auto;
     }
 }
 @media screen and (max-width: 576px) {
