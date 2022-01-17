@@ -8,8 +8,10 @@ $(document).ready(function () {
             //fancybox
             $(".fancybox").fancybox({
                 openEffect: 'none',
-                closeEffect: 'none'
-            });
+                closeEffect: 'none',
+              touch: {
+      vertical: false
+    },            });
 
             //header
             $(window).scroll(function () {
