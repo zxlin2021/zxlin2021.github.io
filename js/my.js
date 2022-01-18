@@ -9,9 +9,8 @@ $(document).ready(function () {
             $(".fancybox").fancybox({
                 openEffect: 'none',
                 closeEffect: 'none',
-              touch: {
-      vertical: false
-    },            });
+                touch: false,            
+            });
 
             //header
             $(window).scroll(function () {
