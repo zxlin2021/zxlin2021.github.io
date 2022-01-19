@@ -9,7 +9,7 @@ $(document).ready(function () {
             $(".fancybox").fancybox({
                 openEffect: 'none',
                 closeEffect: 'none',
-                touch: false,            
+                touch: false           
             });
 
             //header
