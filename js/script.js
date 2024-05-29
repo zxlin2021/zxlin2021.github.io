@@ -38,6 +38,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+//Scroll To Top
+var scroll_Top = $('.scroll-to-top');
+scroll_Top.click(function () {
+    $('html,body').animate({
+        scrollTop: 0
+    }, 500);
+});
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+        scroll_Top.fadeIn();
+    } else {
+        scroll_Top.stop().fadeOut();
+    }
+});
+
 //Hero Animation
 window.addEventListener('scroll', () => {
     if (window.scrollY === 0) {
