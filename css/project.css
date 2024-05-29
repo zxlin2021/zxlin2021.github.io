@@ -44,7 +44,10 @@ header {
     margin: 0 auto;
     margin-bottom: 32px;
 }
-
+.project-items.flex{
+   display: flex;
+   justify-content: space-between;
+}
 .project-items p:nth-child(1) {
     font-weight: 600;
     margin-bottom: 4px;
