@@ -27,6 +27,7 @@ header {
 
 .menu {
     display: flex;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -41,7 +42,22 @@ header {
     color: #333;
     font-weight: 500;
 }
-
+.menu .nav-btn {
+    display: block;
+    width: auto;
+    background: #BC7C77;
+    color: #f3f3f3;
+    font-size: .9rem;
+    border-radius: 40px;
+    padding:8px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.menu .nav-btn:hover{
+    background: #b16d69;
+}
 .menu-btn {
     display: none;
 }
