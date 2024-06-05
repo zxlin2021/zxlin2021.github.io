@@ -67,8 +67,8 @@ window.addEventListener('scroll', () => {
 
 //Tabs
 document.addEventListener("DOMContentLoaded", function () {
-    // Set the default tab to "Web"
-    const defaultFilter = "web";
+    // Set the default tab to "branding"
+    const defaultFilter = "branding";
     const tabs = document.querySelectorAll(".works-tab");
     const workItems = document.querySelectorAll(".work-item");
 
